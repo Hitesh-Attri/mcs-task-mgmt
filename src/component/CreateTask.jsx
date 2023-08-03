@@ -65,13 +65,10 @@ const CreateTask = () => {
       return;
     }
     try {
-      let res = await axios.put(
-        `https://node-backend-8meu.onrender.com/api/update-task/${updateID}`,
-        {
-          title,
-          description,
-        }
-      );
+      let res = await axios.put(`${BASE_URL}/update-task/${updateID}`, {
+        title,
+        description,
+      });
       console.log(res.data);
       if (res.data.success) {
         toast.success("Task updated.");
