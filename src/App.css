@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+span {
+    font-weight: 700;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+/* #task-box ::-webkit-scrollbar {
+    display: none;
+} */
