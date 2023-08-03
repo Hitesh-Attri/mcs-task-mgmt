@@ -81,7 +81,8 @@ const TaskItem = ({ task }) => {
         width: "100%",
         marginBottom: "2em",
         padding: "1em",
-        backgroundColor: "#FFFF8A",
+        // backgroundColor: "#FFFF8A",
+        backgroundColor: "#FF5733",
         boxSizing: "border-box",
         borderRadius: "1em",
       }}
